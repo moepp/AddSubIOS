@@ -7,13 +7,45 @@
 //
 
 #import "AppDelegate.h"
+#import "TrainingController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
     return YES;
+}
+- (void)transitionToViewController:(UIViewController *)viewController
+                    withTransition:(UIViewAnimationOptions)transition
+{
+    [UIView transitionFromView:self.window.rootViewController.view
+                        toView:viewController.view
+                      duration:0.65f
+                       options:transition
+                    completion:^(BOOL finished){
+                        self.window.rootViewController = viewController;
+                    }];
+}
+- (void)changeRootViewController:(NSString *)controllerName
+{
+    
+     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:[NSBundle bundleForClass:[self class]]];
+    if ([controllerName isEqual: @"training"]) {
+        UIViewController *tc = [storyboard instantiateViewControllerWithIdentifier:@"training"];
+
+        //self.rootView = (UIViewController *)[[TrainingController alloc] init];
+          [[self window] setRootViewController:tc];
+    } else if ([controllerName isEqual: @"gamemenu"]) {
+         UIViewController *gm = [storyboard instantiateViewControllerWithIdentifier:@"gamemenu"];
+        [[self window] setRootViewController:gm];
+
+        // Use a different VC as roowViewController
+    } else if ([controllerName isEqual: @"something_else"]) {
+        // Use a different VC as roowViewController
+    }
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -34,12 +34,14 @@
     if (combinedInt == self.desiredResult)
     {
         self.rightAnswers++;
-        self.resultLabel.text = @"RIGHT";
+        self.resultLabel.text = @"KORREKT :)";
+        self.wrongAnswerLabel.text = @"";
     }
     else
     {
         self.wrongAnswers++;
-        self.resultLabel.text = @"WRONG";
+        self.resultLabel.text =@"FALSCH :(";
+        self.wrongAnswerLabel.text = [NSString stringWithFormat:@"Ergebnis war: %d ", self.desiredResult];
     }
     
     [self clearInput];
@@ -66,6 +68,8 @@
     self.resultFieldTens.text = @"";
     self.resultFieldOnes.text = @"";
     self.resultFieldHundreds.text = @"";
+    self.carryOnes.text = @"";
+    self.carryTens.text = @"";
 }
 
 - (void)fetchCalculation
@@ -73,6 +77,17 @@
     int plusMinus = (arc4random() % 2);
     int firstNum = (arc4random() % 1000);
     int secondNum = (arc4random() % 1000);
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    int difficultyLevel = [defaults integerForKey:@"excerciseDifficulty"];
+    
+    if(difficultyLevel == 1) {
+        firstNum = firstNum / 100;
+        secondNum = secondNum / 100;
+    } else if (difficultyLevel == 2) {
+        firstNum = firstNum / 10;
+        secondNum = secondNum / 10;
+    }
     
     if (firstNum < secondNum)
         plusMinus = 0;
@@ -87,13 +102,12 @@
     }
     NSString *firstNumString = [NSString stringWithFormat:@"%d", firstNum];
     NSString *secondNumString = [NSString stringWithFormat:@"%d", secondNum];
-    NSString *firstOnes;
-    NSString *firstTens;
-    NSString *firstHundreds;
-    NSString *secondOnes;
-    NSString *secondTens;
-    NSString *secondHundreds;
-  //  [firstNumString substringWithRange:<#(NSRange)#>]
+    NSString *firstOnes = 0;
+    NSString *firstTens = 0;
+    NSString *firstHundreds = 0;
+    NSString *secondOnes = 0;
+    NSString *secondTens = 0;
+    NSString *secondHundreds = 0;
     if ([firstNumString length] == 3) {
         firstOnes = [firstNumString substringWithRange:NSMakeRange(2, 1)];
         firstTens = [firstNumString substringWithRange:NSMakeRange(1, 1)];
@@ -125,6 +139,7 @@
         secondTens = @"";
         secondHundreds = @"";
     }
+
     
     
     self.firstOnes.text = firstOnes;
@@ -154,8 +169,19 @@
     [tap setCancelsTouchesInView:NO];   
     
     [self.view addGestureRecognizer:tap];
+    self.moveCarries.transform = CGAffineTransformMakeRotation (3.14/2);
+    
+
+
     
     [self fetchCalculation];
+   /* NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL carryOnTop = [defaults boolForKey:@"carryOnTop"];
+    
+    if (carryOnTop)
+    {
+        [self moveCarriesOnTop];
+    }*/
 	// Do any additional setup after loading the view.
         
         
@@ -165,6 +191,7 @@
     
         
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -180,5 +207,39 @@
     [self.carryTens resignFirstResponder];
     
 }
+- (IBAction)moveCarryFields:(id)sender
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL carryOnTop = [defaults boolForKey:@"carryOnTop"];
+    
+    if(carryOnTop) {
+        [self moveCarriesToBottom];
+        [defaults setBool:NO forKey:@"carryOnTop"];
+        [defaults synchronize];
+    } else {
+        [self moveCarriesOnTop];
+        [defaults setBool:YES forKey:@"carryOnTop"];
+        [defaults synchronize];
+    }
+}
+- (void)moveCarriesOnTop {
+    CGRect onesFrame = self.carryOnes.frame;
+    CGRect tensFrame = self.carryTens.frame;
+    onesFrame.origin.y = 40;
+    tensFrame.origin.y = 40;
+    self.carryOnes.frame = onesFrame;
+    self.carryTens.frame = tensFrame;
+    
+}
+- (void)moveCarriesToBottom {
+    CGRect onesFrame = self.carryOnes.frame;
+    CGRect tensFrame = self.carryTens.frame;
+    onesFrame.origin.y = 130;
+    tensFrame.origin.y = 130;
+    self.carryOnes.frame = onesFrame;
+    self.carryTens.frame = tensFrame;
+    
+}
+
 
 @end

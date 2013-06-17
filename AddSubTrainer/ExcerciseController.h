@@ -14,6 +14,7 @@
 @property (nonatomic, strong) IBOutlet UILabel *secondNumber;
 @property (nonatomic, strong) IBOutlet UILabel *plusMinus;
 @property (nonatomic, strong) IBOutlet UILabel *resultLabel;
+@property (nonatomic, strong) IBOutlet UILabel *wrongAnswerLabel;
 @property (nonatomic, strong) IBOutlet UILabel *correctAnswersLabel;
 @property (nonatomic, strong) IBOutlet UILabel *wrongAnswersLabel;
 
@@ -23,6 +24,7 @@
 @property (nonatomic, strong) IBOutlet UILabel *secondOnes;
 @property (nonatomic, strong) IBOutlet UILabel *secondTens;
 @property (nonatomic, strong) IBOutlet UILabel *secondHundreds;
+@property (nonatomic, strong) IBOutlet UILabel *moveCarries;
 
 @property (nonatomic, strong) IBOutlet UITextField *carryOnes;
 @property (nonatomic, strong) IBOutlet UITextField *carryTens;

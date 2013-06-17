@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[TrainingController fillLabels:]:TrainingController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.problemId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "getProblemTarget:MathWebServiceServiceProxy.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "xml">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ExcerciseController okButtonTapped:]:ExcerciseController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ExcerciseController fetchCalculation]:ExcerciseController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.desiredResult">
+            </PersistentString>
+            <PersistentString
+               value = "firstNumString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UserManagementController handleUMService:]:UserManagementController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TrainingController okButtonTapped:]:TrainingController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.result">
+            </PersistentString>
+            <PersistentString
+               value = "self.resultFieldHundreds.text.length">
+            </PersistentString>
+            <PersistentString
+               value = "self.carry">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
