@@ -21,6 +21,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
         // Custom initialization
     }
     return self;
@@ -29,6 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
                                    initWithTarget:self
@@ -36,28 +38,34 @@
     [tap setCancelsTouchesInView:NO];
     
     [self.view addGestureRecognizer:tap];
-    self.moveCarries.transform = CGAffineTransformMakeRotation (3.14/2);
+    //self.moveCarries.transform = CGAffineTransformMakeRotation (3.14/2);
     
     [self showNormalButtons];
-    
-    //[self.wrongAnswerButton setHidden:YES];
-    
-
-
     self.errorLabel.text = @"Wird geladen...";
-    self.firstOnes.text = @"";
-    self.firstTens.text = @"";
-    self.firstHundreds.text = @"";
-    
-    self.secondOnes.text = @"";
-    self.secondTens.text = @"";
-    self.secondHundreds.text = @"";
+    [self clearOutput];
     [self getProblem];
+}
+
+- (void) viewDidLayoutSubviews {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL carryOnTop = [defaults boolForKey:@"carryOnTop"];
+    
+    if (carryOnTop)
+    {
+        [self moveCarriesOnTop];
+    } else {
+        [self moveCarriesToBottom];
+    }
+    
+    
 }
 
 - (IBAction)okButtonTapped:(id)sender
 {
+    self.endTime = [NSDate date];
+    self.executionTime = [self.endTime timeIntervalSinceDate:self.startTime];
     
+    //NSLog([NSString stringWithFormat:@"Duration time %f",self.executionTime]);
     
     int combinedResult=
     [[NSString stringWithFormat:@"%d%d%d",
@@ -102,7 +110,7 @@
     
     self.result_pattern = result_pattern;
     self.carry_pattern = carry_pattern;
-    self.errorLabel.text = @"Bitte warten...";
+    //self.errorLabel.text = @"Bitte warten...";
     
     [self receiveResult];
 
@@ -159,6 +167,15 @@
     self.carryTens.text = @"";
 }
 
+- (void) clearOutput {
+    self.firstOnes.text = @"";
+    self.firstTens.text = @"";
+    self.firstHundreds.text = @"";
+    self.secondOnes.text = @"";
+    self.secondTens.text = @"";
+    self.secondHundreds.text = @"";
+}
+
 - (void)receiveResult
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -166,7 +183,7 @@
     // self.errorLabel.text =[NSString stringWithFormat:@"%i",uid];
     
     NSString *soapMessage = [NSString stringWithFormat:
-                             @"<soapenv:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:web=\"http://plusminus.tugraz.at/webservice\">                             <soapenv:Header/><soapenv:Body>                             <web:receiveResult soapenv:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">                             <userId xsi:type=\"xsd:int\">%d</userId>                             <problemId xsi:type=\"xsd:int\">%d</problemId>                             <result xsi:type=\"xsd:int\">%d</result>                             <carry xsi:type=\"xsd:int\">%d</carry>                             <result_pattern xsi:type=\"xsd:string\">%@</result_pattern>                             <carry_pattern xsi:type=\"xsd:string\">%@</carry_pattern>                                <duration xsi:type=\"xsd:float\">1</duration></web:receiveResult></soapenv:Body></soapenv:Envelope>", uid,self.problemId,self.result,self.carry,self.result_pattern, self.carry_pattern];
+                             @"<soapenv:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:web=\"http://plusminus.tugraz.at/webservice\">                             <soapenv:Header/><soapenv:Body>                             <web:receiveResult soapenv:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">                             <userId xsi:type=\"xsd:int\">%d</userId>                             <problemId xsi:type=\"xsd:int\">%d</problemId>                             <result xsi:type=\"xsd:int\">%d</result>                             <carry xsi:type=\"xsd:int\">%d</carry>                             <result_pattern xsi:type=\"xsd:string\">%@</result_pattern>                             <carry_pattern xsi:type=\"xsd:string\">%@</carry_pattern>                                <duration xsi:type=\"xsd:float\">%f</duration></web:receiveResult></soapenv:Body></soapenv:Envelope>", uid,self.problemId,self.result,self.carry,self.result_pattern, self.carry_pattern, self.executionTime];
 	//NSLog(soapMessage);
     
     NSURL *url = [NSURL URLWithString:@"http://plusminus.tugraz.at/webservice#receiveResult"];
@@ -315,13 +332,17 @@
 	{
 		recordResults = NO;
         if([soapResults isEqualToString:@"true "] ) {
-            self.errorLabel.text = @"Bitte Warten...";
-            self.wrongAnswerLabel.textColor = [UIColor greenColor];
-            self.wrongAnswerLabel.text = @"KORREKT";
+            //self.errorLabel.text = @"Bitte Warten...";
+            self.errorLabel.textColor = [UIColor greenColor];
+            self.errorLabel.text = @"KORREKT";
+
+           // self.wrongAnswerLabel.textColor = [UIColor greenColor];
+           // self.wrongAnswerLabel.text = @"KORREKT";
             soapResults = [[NSMutableString alloc] init];
             [self getProblem];
         }
         else {
+             self.errorLabel.textColor = [UIColor redColor];
             self.errorLabel.text = @"FALSCH";
             self.wrongAnswerLabel.textColor = [UIColor redColor];
             self.wrongAnswerLabel.text = [NSString stringWithFormat:@"Ergebnis war: %d ", self.desired_result];
@@ -345,13 +366,7 @@
 
 -(void)fillLabels:(NSString *) problemString
 {
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    BOOL carryOnTop = [defaults boolForKey:@"carryOnTop"];
-    
-    if (carryOnTop)
-    {
-        [self moveCarriesOnTop];
-    }
+
     NSLog(@"problemString: %@", problemString);
     NSArray *problemArray = [problemString componentsSeparatedByString:@" "];
     //NSArray  *problemArray = [NSArray arrayWithObjects:@"1",@"623",@"439",@"-", nil];
@@ -418,6 +433,11 @@
     self.errorLabel.text = @"";
     self.wrongAnswerLabel.text = @"";
     
+    self.startTime = [NSDate date];
+    
+    
+
+    
     [self clearInput];
   /*  self.resultFieldOnes.text = @"";
     self.resultFieldTens.text = @"";
@@ -479,10 +499,11 @@
     }
 }
 - (void)moveCarriesOnTop {
+    NSLog(@"Move Carries On Top");
     CGRect onesFrame = self.carryOnes.frame;
     CGRect tensFrame = self.carryTens.frame;
-    onesFrame.origin.y = 50;
-    tensFrame.origin.y = 50;
+    onesFrame.origin.y = 40;
+    tensFrame.origin.y = 40;
     self.carryOnes.frame = onesFrame;
     self.carryTens.frame = tensFrame;
     
@@ -490,8 +511,8 @@
 - (void)moveCarriesToBottom {
     CGRect onesFrame = self.carryOnes.frame;
     CGRect tensFrame = self.carryTens.frame;
-    onesFrame.origin.y = 170;
-    tensFrame.origin.y = 170;
+    onesFrame.origin.y = 161;
+    tensFrame.origin.y = 161;
     self.carryOnes.frame = onesFrame;
     self.carryTens.frame = tensFrame;
     

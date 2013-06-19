@@ -119,6 +119,7 @@
 		D4B37DF6172FCBA400AE8C68 /* WebserviceProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B37DF2172FCBA400AE8C68 /* WebserviceProblem.m */; };
 		D4B37DF9172FCD2000AE8C68 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B37DF8172FCD1F00AE8C68 /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D4B9DEC61767A0DF00813C7D /* GameMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B9DEC51767A0DF00813C7D /* GameMenuController.m */; };
+		D4DC308A177069A60048A189 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DC3089177069A60048A189 /* SettingsController.m */; };
 		D4E8A1301767AF8A006FE4EE /* arrow_updown.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8A12F1767AF8A006FE4EE /* arrow_updown.png */; };
 		D4E8A13317689384006FE4EE /* ExcerciseMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8A13217689384006FE4EE /* ExcerciseMenuController.m */; };
 /* End PBXBuildFile section */
@@ -283,6 +284,8 @@
 		D4B37DF8172FCD1F00AE8C68 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		D4B9DEC41767A0DF00813C7D /* GameMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMenuController.h; sourceTree = "<group>"; };
 		D4B9DEC51767A0DF00813C7D /* GameMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenuController.m; sourceTree = "<group>"; };
+		D4DC3088177069A60048A189 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		D4DC3089177069A60048A189 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		D4E8A12F1767AF8A006FE4EE /* arrow_updown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_updown.png; sourceTree = "<group>"; };
 		D4E8A13117689384006FE4EE /* ExcerciseMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerciseMenuController.h; sourceTree = "<group>"; };
 		D4E8A13217689384006FE4EE /* ExcerciseMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerciseMenuController.m; sourceTree = "<group>"; };
@@ -359,6 +362,8 @@
 				D4B9DEC51767A0DF00813C7D /* GameMenuController.m */,
 				D4E8A13117689384006FE4EE /* ExcerciseMenuController.h */,
 				D4E8A13217689384006FE4EE /* ExcerciseMenuController.m */,
+				D4DC3088177069A60048A189 /* SettingsController.h */,
+				D4DC3089177069A60048A189 /* SettingsController.m */,
 			);
 			path = AddSubTrainer;
 			sourceTree = "<group>";
@@ -730,6 +735,7 @@
 				D4B37DF9172FCD2000AE8C68 /* XPathQuery.m in Sources */,
 				D4B9DEC61767A0DF00813C7D /* GameMenuController.m in Sources */,
 				D4E8A13317689384006FE4EE /* ExcerciseMenuController.m in Sources */,
+				D4DC308A177069A60048A189 /* SettingsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

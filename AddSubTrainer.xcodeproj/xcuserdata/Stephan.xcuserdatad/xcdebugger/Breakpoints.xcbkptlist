@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "388591503.735939"
+         timestampString = "393246351.838124"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "35"
-         endingLineNumber = "35"
+         startingLineNumber = "49"
+         endingLineNumber = "49"
          landmarkName = "-okButtonTapped:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "392726515.935692"
+         timestampString = "393247313.051392"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "68"
-         endingLineNumber = "68"
+         startingLineNumber = "86"
+         endingLineNumber = "86"
          landmarkName = "-clearInput"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "392726515.935692"
+         timestampString = "393247313.051392"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
+         startingLineNumber = "55"
+         endingLineNumber = "55"
          landmarkName = "-okButtonTapped:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "392730548.373676"
+         timestampString = "393247313.051392"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "92"
-         endingLineNumber = "92"
+         startingLineNumber = "111"
+         endingLineNumber = "111"
          landmarkName = "-fetchCalculation"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "388616374.806039"
+         timestampString = "393246351.838124"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "34"
-         endingLineNumber = "34"
+         startingLineNumber = "48"
+         endingLineNumber = "48"
          landmarkName = "-okButtonTapped:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -73,11 +73,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "392730548.373676"
+         timestampString = "393247313.051392"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "154"
-         endingLineNumber = "154"
+         startingLineNumber = "173"
+         endingLineNumber = "173"
          landmarkName = "-fetchCalculation"
          landmarkType = "5">
       </FileBreakpoint>
@@ -86,11 +86,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "392730548.373676"
+         timestampString = "393247313.051392"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "95"
-         endingLineNumber = "95"
+         startingLineNumber = "114"
+         endingLineNumber = "114"
          landmarkName = "-fetchCalculation"
          landmarkType = "5">
       </FileBreakpoint>
@@ -281,11 +281,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "210"
-         endingLineNumber = "210"
+         startingLineNumber = "227"
+         endingLineNumber = "227"
          landmarkName = "-connectionDidFinishLoading:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -294,11 +294,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "205"
-         endingLineNumber = "205"
+         startingLineNumber = "222"
+         endingLineNumber = "222"
          landmarkName = "-connection:didFailWithError:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -307,11 +307,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "197"
-         endingLineNumber = "197"
+         startingLineNumber = "214"
+         endingLineNumber = "214"
          landmarkName = "-connection:didReceiveResponse:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -320,11 +320,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "201"
-         endingLineNumber = "201"
+         startingLineNumber = "218"
+         endingLineNumber = "218"
          landmarkName = "-connection:didReceiveData:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -333,11 +333,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "206"
-         endingLineNumber = "206"
+         startingLineNumber = "223"
+         endingLineNumber = "223"
          landmarkName = "-connection:didFailWithError:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -346,85 +346,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "243"
-         endingLineNumber = "243"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "285"
-         endingLineNumber = "285"
-         landmarkName = "-parser:foundCharacters:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "297"
-         endingLineNumber = "297"
-         landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "246"
-         endingLineNumber = "246"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "252"
-         endingLineNumber = "252"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "258"
-         endingLineNumber = "258"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "260"
@@ -437,12 +359,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "255"
-         endingLineNumber = "255"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         startingLineNumber = "302"
+         endingLineNumber = "302"
+         landmarkName = "-parser:foundCharacters:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -450,150 +372,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "263"
-         endingLineNumber = "263"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "256"
-         endingLineNumber = "256"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "358"
-         endingLineNumber = "358"
-         landmarkName = "-fillLabels:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "59"
-         endingLineNumber = "59"
-         landmarkName = "-okButtonTapped:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "359"
-         endingLineNumber = "359"
-         landmarkName = "-fillLabels:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "62"
-         endingLineNumber = "62"
-         landmarkName = "-okButtonTapped:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "114"
-         endingLineNumber = "114"
-         landmarkName = "-getProblem"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "317"
-         endingLineNumber = "317"
-         landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "308"
-         endingLineNumber = "308"
-         landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "215"
-         endingLineNumber = "215"
-         landmarkName = "-connectionDidFinishLoading:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "269"
-         endingLineNumber = "269"
-         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "314"
@@ -606,7 +385,59 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "263"
+         endingLineNumber = "263"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "269"
+         endingLineNumber = "269"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "275"
+         endingLineNumber = "275"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "277"
+         endingLineNumber = "277"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "272"
@@ -619,11 +450,180 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "280"
+         endingLineNumber = "280"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "273"
+         endingLineNumber = "273"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "373"
+         endingLineNumber = "373"
+         landmarkName = "-fillLabels:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393246405.924584"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "64"
+         endingLineNumber = "64"
+         landmarkName = "-okButtonTapped:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "374"
+         endingLineNumber = "374"
+         landmarkName = "-fillLabels:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "70"
+         endingLineNumber = "70"
+         landmarkName = "-okButtonTapped:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "122"
+         endingLineNumber = "122"
+         landmarkName = "-getProblem"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "334"
+         endingLineNumber = "334"
+         landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "325"
+         endingLineNumber = "325"
+         landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "232"
+         endingLineNumber = "232"
+         landmarkName = "-connectionDidFinishLoading:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "286"
          endingLineNumber = "286"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "331"
+         endingLineNumber = "331"
+         landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "289"
+         endingLineNumber = "289"
+         landmarkName = "-parser:didStartElement:namespaceURI:qualifiedName:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "AddSubTrainer/TrainingController.m"
+         timestampString = "393248435.68101"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "303"
+         endingLineNumber = "303"
          landmarkName = "-parser:foundCharacters:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -632,11 +632,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "103"
-         endingLineNumber = "103"
+         startingLineNumber = "111"
+         endingLineNumber = "111"
          landmarkName = "-okButtonTapped:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -684,11 +684,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "73"
-         endingLineNumber = "73"
+         startingLineNumber = "81"
+         endingLineNumber = "81"
          landmarkName = "-okButtonTapped:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -697,11 +697,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "355"
-         endingLineNumber = "355"
+         startingLineNumber = "370"
+         endingLineNumber = "370"
          landmarkName = "-fillLabels:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -710,11 +710,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "315"
-         endingLineNumber = "315"
+         startingLineNumber = "332"
+         endingLineNumber = "332"
          landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -723,11 +723,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/TrainingController.m"
-         timestampString = "392803795.443033"
+         timestampString = "393248435.68101"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "172"
-         endingLineNumber = "172"
+         startingLineNumber = "189"
+         endingLineNumber = "189"
          landmarkName = "-receiveResult"
          landmarkType = "5">
       </FileBreakpoint>
@@ -736,11 +736,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddSubTrainer/ExcerciseController.m"
-         timestampString = "392730548.373676"
+         timestampString = "393247313.051392"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "226"
-         endingLineNumber = "226"
+         startingLineNumber = "241"
+         endingLineNumber = "241"
          landmarkName = "-moveCarriesOnTop"
          landmarkType = "5">
       </FileBreakpoint>

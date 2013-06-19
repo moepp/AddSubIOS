@@ -26,6 +26,10 @@
 @property (nonatomic, strong) IBOutlet UIButton *deleteButton;
 
 //@property (nonatomic, strong) NSMutableString *soapResults;
+@property (nonatomic, strong) NSDate *startTime;
+@property (nonatomic, strong) NSDate *endTime;
+@property (nonatomic) NSTimeInterval executionTime;
+
 
 @property (nonatomic, strong) IBOutlet UILabel *firstOnes;
 @property (nonatomic, strong) IBOutlet UILabel *firstTens;

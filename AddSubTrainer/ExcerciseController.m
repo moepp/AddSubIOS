@@ -23,6 +23,20 @@
     return self;
 }
 
+- (void) viewDidLayoutSubviews {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL carryOnTop = [defaults boolForKey:@"carryOnTop"];
+    
+    if (carryOnTop)
+    {
+        [self moveCarriesOnTop];
+    } else {
+        [self moveCarriesToBottom];
+    }
+
+    
+}
+
 - (IBAction)okButtonTapped:(id)sender
 {
     int combinedInt=
@@ -34,13 +48,17 @@
     if (combinedInt == self.desiredResult)
     {
         self.rightAnswers++;
-        self.resultLabel.text = @"KORREKT :)";
+        self.resultLabel.textColor = [UIColor greenColor];
+        self.resultLabel.text = @"KORREKT";
         self.wrongAnswerLabel.text = @"";
     }
     else
     {
         self.wrongAnswers++;
-        self.resultLabel.text =@"FALSCH :(";
+        self.resultLabel.textColor = [UIColor redColor];
+        self.resultLabel.text =@"FALSCH";
+       
+        self.wrongAnswerLabel.textColor = [UIColor redColor];
         self.wrongAnswerLabel.text = [NSString stringWithFormat:@"Ergebnis war: %d ", self.desiredResult];
     }
     
@@ -74,6 +92,7 @@
 
 - (void)fetchCalculation
 {
+       
     int plusMinus = (arc4random() % 2);
     int firstNum = (arc4random() % 1000);
     int secondNum = (arc4random() % 1000);
@@ -161,6 +180,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     
     [self.summaryView setHidden:YES];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
@@ -175,13 +195,7 @@
 
     
     [self fetchCalculation];
-   /* NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    BOOL carryOnTop = [defaults boolForKey:@"carryOnTop"];
-    
-    if (carryOnTop)
-    {
-        [self moveCarriesOnTop];
-    }*/
+
 	// Do any additional setup after loading the view.
         
         
@@ -223,6 +237,7 @@
     }
 }
 - (void)moveCarriesOnTop {
+    NSLog(@"Move Carries On Top");
     CGRect onesFrame = self.carryOnes.frame;
     CGRect tensFrame = self.carryTens.frame;
     onesFrame.origin.y = 40;
@@ -234,8 +249,8 @@
 - (void)moveCarriesToBottom {
     CGRect onesFrame = self.carryOnes.frame;
     CGRect tensFrame = self.carryTens.frame;
-    onesFrame.origin.y = 130;
-    tensFrame.origin.y = 130;
+    onesFrame.origin.y = 146;
+    tensFrame.origin.y = 146;
     self.carryOnes.frame = onesFrame;
     self.carryTens.frame = tensFrame;
     
