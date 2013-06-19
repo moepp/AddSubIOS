@@ -560,7 +560,7 @@
                                     <segue destination="ey6-m2-T55" kind="modal" id="V70-Ln-Ow4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Ergebnis war: 342" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hK-uP-jmj">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hK-uP-jmj">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="sHX-60-M5Z"/>
                                 </constraints>
@@ -591,6 +591,7 @@
                             <constraint firstItem="LX9-jW-Wha" firstAttribute="top" secondItem="t1s-MP-Eyu" secondAttribute="top" type="default" id="0AR-yg-h5C"/>
                             <constraint firstItem="zyd-Zx-2GS" firstAttribute="leading" secondItem="sWQ-YI-9KU" secondAttribute="leading" type="default" id="0Mc-y2-ecI"/>
                             <constraint firstItem="sWQ-YI-9KU" firstAttribute="leading" secondItem="g0T-b3-OOu" secondAttribute="leading" type="default" id="2tu-2y-Rk4"/>
+                            <constraint firstItem="Kty-z2-yGh" firstAttribute="centerX" secondItem="4hK-uP-jmj" secondAttribute="centerX" type="default" id="3ia-5x-z5z"/>
                             <constraint firstItem="hxt-lR-WhV" firstAttribute="bottom" secondItem="xLz-tb-7Py" secondAttribute="bottom" type="default" id="60R-L3-iYL"/>
                             <constraint firstAttribute="trailing" secondItem="xLz-tb-7Py" secondAttribute="trailing" constant="12" id="6cQ-w8-Tjc"/>
                             <constraint firstItem="LC8-py-FgV" firstAttribute="bottom" secondItem="TW4-0f-woK" secondAttribute="bottom" type="default" id="7Ci-Ed-COc"/>
@@ -600,7 +601,6 @@
                             <constraint firstItem="RjI-6a-o9n" firstAttribute="baseline" secondItem="5KI-FG-iaj" secondAttribute="baseline" type="default" id="APV-gQ-elG"/>
                             <constraint firstItem="sKa-Yv-LIj" firstAttribute="leading" secondItem="EcN-KU-wSv" secondAttribute="leading" type="default" id="CZb-13-zCp"/>
                             <constraint firstItem="zyd-Zx-2GS" firstAttribute="trailing" secondItem="sWQ-YI-9KU" secondAttribute="trailing" type="default" id="Cg6-Iu-PUa"/>
-                            <constraint firstItem="mbM-LN-UJj" firstAttribute="centerX" secondItem="t1s-MP-Eyu" secondAttribute="centerX" type="default" id="Egv-a1-8Ig"/>
                             <constraint firstItem="ltU-aR-xG3" firstAttribute="leading" secondItem="EcN-KU-wSv" secondAttribute="leading" constant="30" id="EyD-d3-evc"/>
                             <constraint firstItem="4hK-uP-jmj" firstAttribute="trailing" secondItem="EcN-KU-wSv" secondAttribute="trailing" type="default" id="FiN-Xz-deX"/>
                             <constraint firstItem="Fea-4z-B6d" firstAttribute="top" secondItem="EcN-KU-wSv" secondAttribute="top" type="default" id="Fln-mx-n2y"/>
@@ -618,6 +618,7 @@
                             <constraint firstItem="g0T-b3-OOu" firstAttribute="top" secondItem="t1s-MP-Eyu" secondAttribute="top" type="default" id="PMk-1v-3vu"/>
                             <constraint firstItem="LC8-py-FgV" firstAttribute="leading" secondItem="RjI-6a-o9n" secondAttribute="leading" type="default" id="Pxh-oK-9Ie"/>
                             <constraint firstItem="RBO-qK-PpB" firstAttribute="top" secondItem="qlL-il-wCb" secondAttribute="top" type="default" id="RSr-cR-eLn"/>
+                            <constraint firstItem="mbM-LN-UJj" firstAttribute="centerX" secondItem="t1s-MP-Eyu" secondAttribute="centerX" type="default" id="Rkg-3T-mBj"/>
                             <constraint firstItem="TW4-0f-woK" firstAttribute="leading" secondItem="5KI-FG-iaj" secondAttribute="leading" type="default" id="WFS-5q-PGP"/>
                             <constraint firstItem="RjI-6a-o9n" firstAttribute="centerX" secondItem="5k1-nn-uza" secondAttribute="centerX" type="default" id="WGP-Dm-iA8"/>
                             <constraint firstAttribute="trailing" secondItem="qlL-il-wCb" secondAttribute="trailing" constant="113" id="XVQ-UD-SRB"/>
@@ -632,11 +633,10 @@
                             <constraint firstItem="LX9-jW-Wha" firstAttribute="leading" secondItem="EcN-KU-wSv" secondAttribute="leading" constant="74" id="hbw-4K-PcT"/>
                             <constraint firstItem="Fea-4z-B6d" firstAttribute="trailing" secondItem="EcN-KU-wSv" secondAttribute="trailing" type="default" id="jzS-hp-ZrC"/>
                             <constraint firstItem="LC8-py-FgV" firstAttribute="trailing" secondItem="RjI-6a-o9n" secondAttribute="trailing" type="default" id="n04-Uo-z4e"/>
+                            <constraint firstItem="mbM-LN-UJj" firstAttribute="top" secondItem="EcN-KU-wSv" secondAttribute="top" constant="13" id="nGE-CU-OfK"/>
                             <constraint firstItem="g0T-b3-OOu" firstAttribute="baseline" secondItem="t1s-MP-Eyu" secondAttribute="baseline" type="default" id="nJg-kp-caM"/>
                             <constraint firstItem="hxt-lR-WhV" firstAttribute="top" secondItem="EcN-KU-wSv" secondAttribute="top" constant="189" id="nx9-Wy-rDj"/>
                             <constraint firstAttribute="trailing" secondItem="g0T-b3-OOu" secondAttribute="trailing" constant="74" id="oFD-yq-5KC"/>
-                            <constraint firstItem="LC8-py-FgV" firstAttribute="centerX" secondItem="Kty-z2-yGh" secondAttribute="centerX" type="default" id="oSC-ti-bcN"/>
-                            <constraint firstItem="mbM-LN-UJj" firstAttribute="top" secondItem="EcN-KU-wSv" secondAttribute="top" constant="20" symbolic="YES" type="default" id="rNb-mZ-TaM"/>
                             <constraint firstItem="RBO-qK-PpB" firstAttribute="leading" secondItem="EcN-KU-wSv" secondAttribute="leading" constant="114" id="rVG-Pw-70P"/>
                             <constraint firstItem="sWQ-YI-9KU" firstAttribute="top" secondItem="RjI-6a-o9n" secondAttribute="top" type="default" id="rtR-g8-ckp"/>
                             <constraint firstItem="t1s-MP-Eyu" firstAttribute="baseline" secondItem="LX9-jW-Wha" secondAttribute="baseline" type="default" id="sdJ-0K-sr9"/>
@@ -1339,7 +1339,6 @@ der Rechenfähigkeiten des Benutzers. </string>
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ExcerciseController.h"/>
             <relationships>
                 <relationship kind="action" name="delButtonTapped:"/>
-                <relationship kind="action" name="moveCarryFields:"/>
                 <relationship kind="action" name="okButtonTapped:"/>
                 <relationship kind="action" name="stopButtonTapped:"/>
                 <relationship kind="outlet" name="carryOnes" candidateClass="UITextField"/>
@@ -1366,11 +1365,6 @@ der Rechenfähigkeiten des Benutzers. </string>
         </class>
         <class className="ExcerciseMenuController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ExcerciseMenuController.h"/>
-            <relationships>
-                <relationship kind="action" name="easyDifficultyTapped:"/>
-                <relationship kind="action" name="hardDifficultyTapped:"/>
-                <relationship kind="action" name="mediumDifficultyTapped:"/>
-            </relationships>
         </class>
         <class className="GameMenuController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GameMenuController.h"/>
@@ -1416,7 +1410,6 @@ der Rechenfähigkeiten des Benutzers. </string>
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UserManagementController.h"/>
             <relationships>
                 <relationship kind="action" name="okButtonTapped:"/>
-                <relationship kind="action" name="registerButtonTapped:"/>
                 <relationship kind="outlet" name="errorLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="passwordField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="usernameField" candidateClass="UITextField"/>
